@@ -19,5 +19,4 @@ func main() {
 	for _, r := range s {
 		fmt.Printf("%c\n", r)
 	}
-	fmt.Printf("")
 }
