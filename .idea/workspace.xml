@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38b39222-72cf-43c2-930b-0bf8a83c9ad2" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slice01/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/exercise/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/map/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/char/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/char/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,41 +43,40 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/datatype/excerise" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build qimi/src/slice01">
-    <configuration name="go build main.go (2)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="qimi" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="qimi" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/array/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="qimi" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="qimi" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/char/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build qimi/src/array/exercise" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go 构建.go build qimi/src/map">
+    <configuration name="go build qimi/src" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="qimi" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="qimi/src/array/exercise" />
+      <package value="qimi/src" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/array/exercise/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build qimi/src/map" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="qimi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="qimi/src/map" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/map/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build qimi/src/map/exercise" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="qimi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="qimi/src/map/exercise" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/map/exercise/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build qimi/src/slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -101,17 +99,22 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build qimi/src/map" />
+        <item itemvalue="Go 构建.go build qimi/src/map/exercise" />
+        <item itemvalue="Go 构建.go build qimi/src" />
         <item itemvalue="Go 构建.go build qimi/src/slice01" />
         <item itemvalue="Go 构建.go build qimi/src/slice" />
-        <item itemvalue="Go 构建.go build main.go" />
-        <item itemvalue="Go 构建.go build qimi/src/array/exercise" />
-        <item itemvalue="Go 构建.go build main.go (2)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="切片" />
+    <MESSAGE value="rollback" />
+    <option name="LAST_COMMIT_MESSAGE" value="rollback" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
