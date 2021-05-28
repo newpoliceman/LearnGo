@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38b39222-72cf-43c2-930b-0bf8a83c9ad2" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/defer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/func/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/func2/exercise/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/func2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/func3/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/map/exercise2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/panic_recover/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/defer/exercise/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/defer/exercise2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/func3/exercise/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/new_make/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pointer/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +62,25 @@
       <kind value="FILE" />
       <package value="qimi" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/panic_recover/main.go" />
+      <filePath value="$PROJECT_DIR$/src/new_make/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (3)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="qimi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="qimi" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/defer/exercise/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go (4)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="qimi" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="qimi" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/src/defer/exercise2/main.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -73,43 +89,25 @@
       <kind value="FILE" />
       <package value="qimi" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/func3/main.go" />
+      <filePath value="$PROJECT_DIR$/src/pointer/main.go" />
       <method v="2" />
     </configuration>
-    <configuration name="go build qimi/src/func2/exercise" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build qimi/src/pointer" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="qimi" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="qimi/src/func2/exercise" />
+      <package value="qimi/src/pointer" />
       <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/func2/exercise/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build qimi/src/func3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="qimi" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="qimi/src/func3" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/func3/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build qimi/src/panic_recover" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="qimi" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="qimi/src/panic_recover" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/panic_recover/main.go" />
+      <filePath value="$PROJECT_DIR$/src/pointer/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go 构建.go build main.go (2)" />
-        <item itemvalue="Go 构建.go build qimi/src/panic_recover" />
         <item itemvalue="Go 构建.go build main.go" />
-        <item itemvalue="Go 构建.go build qimi/src/func3" />
-        <item itemvalue="Go 构建.go build qimi/src/func2/exercise" />
+        <item itemvalue="Go 构建.go build qimi/src/pointer" />
+        <item itemvalue="Go 构建.go build main.go (4)" />
+        <item itemvalue="Go 构建.go build main.go (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +119,8 @@
     <MESSAGE value="切片" />
     <MESSAGE value="rollback" />
     <MESSAGE value="map" />
-    <option name="LAST_COMMIT_MESSAGE" value="map" />
+    <MESSAGE value="func" />
+    <option name="LAST_COMMIT_MESSAGE" value="func" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
