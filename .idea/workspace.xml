@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38b39222-72cf-43c2-930b-0bf8a83c9ad2" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/src/about_type/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct_define/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct_init/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct_new/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/struct_pointer/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/video14/01method_demo/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/video14/02method_demo/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/video15/01struct/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/video15/02struct/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/video15/03struct/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/video15/04struct/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/video16/bonus/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/video16/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/video17/Video17" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/video17/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/video17/student.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/datatype/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/datatype/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/operator/exercise/exercise.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/operator/exercise/exercise.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +34,7 @@
   <component name="GOROOT" url="file:///usr/local/Cellar/go/1.16/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -51,74 +56,39 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/video17" />
+      <recent name="$PROJECT_DIR$/src/video16" />
       <recent name="$PROJECT_DIR$/src/video14" />
       <recent name="$PROJECT_DIR$/src/datatype/excerise" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build qimi/src/video14/02method_demo">
-    <configuration name="go build main.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="qimi" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
+      <working_directory value="$PROJECT_DIR$/src/video17" />
+      <kind value="DIRECTORY" />
       <package value="qimi" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/struct_new/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="qimi" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <package value="qimi" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/video14/method_demo/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build qimi/src/struct_new" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="qimi" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="qimi/src/struct_new" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/struct_new/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build qimi/src/video14/02method_demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="qimi" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="qimi/src/video14/02method_demo" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/video14/02method_demo/main.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build qimi/src/video14/method_demo" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="qimi" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="qimi/src/video14/method_demo" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/src/video14/method_demo/main.go" />
+      <directory value="$PROJECT_DIR$/src/video17" />
+      <filePath value="$PROJECT_DIR$/src/video17/main.go" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build qimi/src/video14/02method_demo" />
         <item itemvalue="Go 构建.go build main.go" />
-        <item itemvalue="Go 构建.go build qimi/src/video14/method_demo" />
-        <item itemvalue="Go 构建.go build main.go (1)" />
-        <item itemvalue="Go 构建.go build qimi/src/struct_new" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +96,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="切片" />
     <MESSAGE value="rollback" />
     <MESSAGE value="map" />

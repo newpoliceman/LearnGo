@@ -22,7 +22,7 @@ func main() {
 	fmt.Println(f)
 
 	//unit8
-	var age uint8//0~255
+	var age uint8 //0~255
 	age = 255
 	fmt.Println(age)
 
@@ -42,8 +42,8 @@ func main() {
 	s1 := "hello, tokyo"
 	s2 := "你好"
 	fmt.Println(s1, s2)
-	//打印windows路径 c:\go\1.exe
-	fmt.Println("c:\\go\\1.exe")
+	//打印windows路径 c:\go\1.bonus
+	fmt.Println("c:\\go\\1.bonus")
 	fmt.Printf("\t制表符\n换行符")
 	s3 := `
 	多行字符串
